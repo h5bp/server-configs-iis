@@ -144,6 +144,20 @@ to integrated mode. Code above can eliminate harmless errors with caused by
 migration.
 
 
+**11. Cookie httpOnly flag, requires SSL and domain settings**
+
+```xml
+<httpCookies httpOnlyCookies="true" requireSSL="false" domain="yourdomainstring" />
+```
+
+Setting httpOnlyCookies to true sets the httpOnly flag on all cookies, which
+keeps any client side script from accessing the cookie; helping mitigate
+certain XSS attacks.
+The requireSSL property toggles whether cookie exchanges from server to client
+can only occur under a SSL connection.
+The domain property allows you to manually set the domain of your cookie.
+
+
 ## Beyond the basics
 
 We can see several things one can configure which are by default commented out:
