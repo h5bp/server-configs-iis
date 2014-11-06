@@ -189,7 +189,7 @@ non-exploitable cross-site scripting vulnerabilities may potentially become
 exploitable
 
 ```
-X-XSS-Protection:1; mode=blo ck
+X-XSS-Protection:1; mode=block
 ```
 
 #### 2.2.6 Manual Removal
