@@ -1,0 +1,14 @@
+{
+  "name": "server-configs-iis",
+  "version": "2.0.0",
+  "description": "IIS Web.Config Boilerplates",
+  "homepage": "https://github.com/h5bp/server-configs-iis/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h5bp/server-configs-iis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/h5bp/server-configs-iis/issues"
+  }
+}
